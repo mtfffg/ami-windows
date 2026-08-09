@@ -4,6 +4,70 @@ Ami is an animated Windows desktop companion that can chat by text or voice,
 use local Ollama models or supported APIs, remember useful context, work with
 files and applications, and express herself through a 3D avatar.
 
+The Windows release is free to download. Ami is designed to feel like a
+character living on your desktop while still being useful as a personal
+assistant. Choose Ami or Kevin as your avatar, select a voice and personality,
+and decide which local or hosted AI powers the conversation.
+
+## What Ami can do
+
+- **Talk and think with you:** ask questions, solve problems, brainstorm,
+  explain difficult ideas, learn, write, or continue an earlier conversation.
+- **Hold hands-free conversations:** wake her by name, continue speaking
+  naturally, interrupt her response, or return to wake-word-only listening.
+- **Find and understand files:** search approved folders, explore directories,
+  open files, and read supported documents, spreadsheets, presentations, PDFs,
+  source code, and images.
+- **Research current information:** search the web, compare sources, retain the
+  selected result in context, and open the source you choose.
+- **Understand your screen:** inspect a screen or active window after receiving
+  permission and answer questions about what is visible.
+- **Control everyday Windows tasks:** open installed applications and maximize,
+  minimize, or close existing application windows with configurable approval
+  rules.
+- **Play and control music:** search for songs and playlists, work with a
+  preferred music player, identify what is playing, and pause, resume, skip,
+  return to the previous track, adjust volume, or mute playback.
+- **Remember useful details:** save concise facts when explicitly asked, recall
+  them later, forget them, and create friendly aliases for frequently used
+  files and applications.
+- **Manage your day:** create reminders, alarms, named timers, countdowns, and
+  concise daily briefings with configurable topics.
+- **Create things:** draft notes and outlines, help with approved coding
+  projects, and generate images through a configured local model or API.
+- **Act like a desktop character:** dance, emote, read, sleep, use a phone or
+  tablet, sit at a desk, play sports, play guitar, water plants, and interact
+  with compatible objects in her room.
+
+Some capabilities require an AI provider, optional speech models, an approved
+folder, or a permission toggle. Ami's **What Ami can do** window shows the live
+status and setup requirements for every capability.
+
+## Try asking Ami
+
+You do not need to memorize special slash commands. Ask naturally:
+
+```text
+Explain this idea in simple terms.
+Read my project plan and summarize the next step.
+Find my household budget.
+Look at my primary screen and tell me what is open.
+Search the web and compare three authoritative sources.
+Open Notepad.
+Maximize my Visual Studio Code window.
+Play some jazz on Spotify.
+What song is playing?
+Remember that I prefer short answers.
+Remind me to leave in thirty minutes.
+Set a pasta timer for twelve minutes.
+Give me my daily briefing in under a minute.
+Create a cinematic landscape image.
+Dance for me.
+Read a book.
+Play golf.
+Show a random emotion.
+```
+
 ## Download and run
 
 1. Download `Ami-Windows-x64.zip` from the

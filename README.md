@@ -49,14 +49,22 @@ Phone access is off by default. To use the companion web app while Ami is
 running on your PC:
 
 1. Open **Settings > Phone**.
-2. Enter your deployed Ami Phone HTTPS address.
-3. Turn on **Allow phone connections**.
-4. Select **Connect and show QR**, then scan the one-time code with your phone.
+2. Turn on **Allow phone connections**.
+3. Select **Connect and show QR**, then scan the one-time code with your phone.
+
+Ami uses the official phone website automatically. Advanced users can enable
+the custom-deployment option and supply another compatible HTTPS address.
 
 The phone sends requests to the Ami instance running on this PC. Replies and
 TTS play on the phone while it is paired, and API keys remain on the desktop.
 The pairing code expires when Ami closes. Turn the setting off or select
 **Disconnect phone** to stop remote access immediately.
+
+Conversation text, photographs, and speech audio use end-to-end AES-256-GCM
+encryption between the phone and desktop. The Cloudflare relay receives only
+encrypted envelopes and connection status; it is not sent the pairing code or
+content key. Relay traffic is bounded by message, byte, socket, and session
+limits, and security events exclude message contents and pairing data.
 
 The selected character carries over: choosing Ami uses Ami's identity and
 voice, while choosing Kevin sends Kevin's name and the selected male voice.

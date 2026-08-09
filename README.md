@@ -43,6 +43,26 @@ Some capabilities require an AI provider, optional speech models, an approved
 folder, or a permission toggle. Ami's **What Ami can do** window shows the live
 status and setup requirements for every capability.
 
+## Ami Phone (optional)
+
+Phone access is off by default. To use the companion web app while Ami is
+running on your PC:
+
+1. Open **Settings > Phone**.
+2. Enter your deployed Ami Phone HTTPS address.
+3. Turn on **Allow phone connections**.
+4. Select **Connect and show QR**, then scan the one-time code with your phone.
+
+The phone sends requests to the Ami instance running on this PC. Replies and
+TTS play on the phone while it is paired, and API keys remain on the desktop.
+The pairing code expires when Ami closes. Turn the setting off or select
+**Disconnect phone** to stop remote access immediately.
+
+The selected character carries over: choosing Ami uses Ami's identity and
+voice, while choosing Kevin sends Kevin's name and the selected male voice.
+For safety, phone requests cannot open local files, applications, websites, or
+run other desktop-control actions.
+
 ## Try asking Ami
 
 You do not need to memorize special slash commands. Ask naturally:
